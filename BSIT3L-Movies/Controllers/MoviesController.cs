@@ -12,9 +12,9 @@ namespace BSIT3L_Movies.Controllers
             // Sample movie data
             _movies = new List<MovieViewModel>
             {
-               new MovieViewModel { Id = 1, Name = "Titanic", Rating = "5", ReleaseYear = 1997, Genre = "Romance/Drama" },
-            new MovieViewModel { Id = 2, Name = "Inception", Rating = "4", ReleaseYear = 2010, Genre = "Science Fiction/Thriller" },
-            new MovieViewModel { Id = 3, Name = "The Shawshank Redemption", Rating = "5", ReleaseYear = 1994, Genre = "Drama" },
+        new MovieViewModel { Id = 1, Name = "HungerGame", Rating = "6", ReleaseYear = 2012, Genre = "Action/Science Fiction" },
+        new MovieViewModel { Id = 2, Name = "Frozen", Rating = "5", ReleaseYear = 2019, Genre = "Animation" },
+        new MovieViewModel { Id = 3, Name = "The Childe", Rating = "4", ReleaseYear = 2023, Genre = "Drama" },
             };
         }
         public ActionResult Random()
