@@ -26,7 +26,7 @@ namespace BSIT3L_Movies.Controllers
             new MovieViewModel { Id = 12, Name = "Last Sentinel", Rating = "9", ReleaseYear = 2023, Genre = "Horror" },
             new MovieViewModel { Id = 13, Name = "Padre Pio", Rating = "10", ReleaseYear = 2023, Genre = "Biography" },
             new MovieViewModel { Id = 14, Name = "Shazam! Fury of the Gods", Rating = "9", ReleaseYear = 2023, Genre = "Action" },
-            new MovieViewModel { Id = 15, Name = ""The Suicide Squad, Rating = "8", ReleaseYear = 2021, Genre = "Action" },
+            new MovieViewModel { Id = 15, Name = "The Suicide Squad", Rating = "8", ReleaseYear = 2021, Genre = "Action" },
             };
         }
         public ActionResult Random()
