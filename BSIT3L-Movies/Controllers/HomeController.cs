@@ -15,7 +15,7 @@ public class HomeController : Controller
         _logger = logger;
         _movies = new List<MovieViewModel>
         {
-         new MovieViewModel { Id = 1, Name = "HungerGame", Rating = "10", ReleaseYear = 2012, Genre = "Action/Science Fiction", Images = "/Images/Hunger Game.jpg" },
+            new MovieViewModel { Id = 1, Name = "HungerGame", Rating = "10", ReleaseYear = 2012, Genre = "Action/Science Fiction", Images = "/Images/Hunger Game.jpg" },
             new MovieViewModel { Id = 2, Name = "Frozen 2", Rating = "9", ReleaseYear = 2019, Genre = "Children", Images = "/Images/Frozen II.jpg" },
             new MovieViewModel { Id = 3, Name = "The Childe", Rating = "8", ReleaseYear = 2023, Genre = "Drama", Images = "/Images/The Childe.jpg" },
             new MovieViewModel { Id = 4, Name = "Heart Of Stone", Rating = "7", ReleaseYear = 2023, Genre = "Action", Images = "/Images/Heart Of Stone.jpg" },
