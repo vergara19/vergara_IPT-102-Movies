@@ -13,7 +13,6 @@
             <th>Release Year</th>
             <th>Genre</th>
             <th>Images</th>
-            <th>URL</th>
         </tr>
     </thead>
     <tbody>
@@ -25,8 +24,9 @@
                 <td>@movie.Rating</td>
                 <td>@movie.ReleaseYear</td>
                 <td>@movie.Genre</td>
-                <td>@movie.URL</td>
-                <td>@movie.Images</td>
+               <td>
+                   images@Model.Images"alt="@movie.Name"width="200"height="300"
+                </td>
               
             </tr>
         }
